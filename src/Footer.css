@@ -1,0 +1,15 @@
+.foot {
+  background: lime;
+  color: white;
+  height: 30px;
+  width: 80%;
+  position: fixed;
+  opacity: 0;
+  transition: opacity 2s;
+
+  top: calc(100vh - 30px);
+}
+.foot__red {
+  opacity: 1;
+  transition: opacity 2s;
+}

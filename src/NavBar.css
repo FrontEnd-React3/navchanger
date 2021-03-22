@@ -1,0 +1,13 @@
+.nav {
+  height: 30px;
+  width: 80%;
+  position: fixed;
+  top: 100px;
+  opacity: 0;
+  transition: opacity 2s;
+}
+.nav__blue {
+  background: blue;
+  opacity: 1;
+  transition: opacity 2s;
+}
